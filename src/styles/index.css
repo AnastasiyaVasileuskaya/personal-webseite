@@ -35,6 +35,22 @@ h1,h2,h3 {
   .links {
     display: grid; 
 }
+
+.tableinfo {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tableinfo2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.information {
+  grid-column: 2/3;
+}
   
 
 

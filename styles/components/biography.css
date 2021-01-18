@@ -1,0 +1,19 @@
+.section-e {
+  color: var(--color-black);
+  padding: 0;
+}
+.box {
+  padding: 1em;
+  color: var(--color-white);
+}
+
+@media only screen and (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    grid-template-rows: auto;
+  }
+  .box {
+    grid-column: span 2;
+  }
+}

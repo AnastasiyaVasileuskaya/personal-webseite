@@ -4,16 +4,7 @@
 @import 'components/profile.css';
 @import 'components/aboutme.css';
 @import 'components/contact.css';
-
-/* Section E */
-.section-e {
-  color: var(--color-black);
-  padding: 0;
-}
-.box {
-  padding: 1em;
-  color: var(--color-white);
-}
+@import 'components/biography.css';
 
 /* Footer */
 .pagefooter {
@@ -40,9 +31,6 @@
     grid-column: 2/4;
   }
 
-  .box {
-    grid-column: span 2;
-  }
   .pagefooter div {
     grid-column: 2/4;
   }

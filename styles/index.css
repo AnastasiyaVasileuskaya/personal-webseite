@@ -2,6 +2,7 @@
 @import '_variables.css';
 @import 'components/header.css';
 @import 'components/profile.css';
+@import 'components/aboutme.css';
 
 /* Section B */
 .section-b {
@@ -37,13 +38,6 @@
   padding-top: 36px;
   background: var(--color-beige);
   color: var(--color-black);
-}
-
-/* Section D */
-.section-d {
-  background: var(--color-white);
-  color: var(--color-black);
-  padding: 2em;
 }
 
 /* Section E */
@@ -113,15 +107,6 @@
   }
   .boxtwo {
     grid-column: 3/4;
-  }
-
-  .content-text {
-    columns: 2;
-    column-gap: 2em;
-  }
-
-  .content-text p {
-    padding-top: 0;
   }
 
   .section-b ul {

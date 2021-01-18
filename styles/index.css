@@ -1,38 +1,6 @@
 @import '_base.css';
 @import '_variables.css';
-.photo {
-  border-radius: 50%;
-  margin: 0 auto;
-  padding: 1em 0;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.btn {
-  background: var(--color-black);
-  color: var(--color-white);
-  text-decoration: none;
-  padding: 1em 2em;
-  border: 1px solid #666;
-  display: inline-block;
-  margin: 1em 0.5em;
-}
-
-.btn:hover {
-  background: var(--color-beige);
-  color: var(--color-black);
-}
-
-/* Header Showcase */
-
-.pageheader {
-  color: var(--color-white);
-  text-align: center;
-}
-.pageheader h1 {
-  padding-bottom: 0;
-}
+@import 'components/header.css';
 
 /* Section A */
 
@@ -40,6 +8,14 @@
   background: var(--color-beige);
   color: var(--color-black);
   padding-bottom: 0;
+}
+.photo {
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 1em 0;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Section B */
@@ -168,22 +144,7 @@
   .section-b li {
     width: 20%;
   }
-  .pageheader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .navigation {
-    margin-top: 15px;
-  }
 
-  .pageheader h1 {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
-  .pageheader {
-    text-align: center;
-  }
   .links {
     display: flex;
     flex-direction: row;

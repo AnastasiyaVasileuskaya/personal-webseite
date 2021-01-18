@@ -1,0 +1,43 @@
+.pageheader {
+  color: var(--color-white);
+  text-align: center;
+}
+.pageheader h1 {
+  padding-bottom: 0;
+}
+.btn {
+  background: var(--color-black);
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  display: inline-block;
+  margin: 1em 0.5em;
+}
+.btn:hover {
+  background: var(--color-beige);
+  color: var(--color-black);
+}
+@media only screen and (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    grid-template-rows: auto;
+  }
+  .pageheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .navigation {
+    margin-top: 15px;
+  }
+
+  .pageheader h1 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .pageheader {
+    text-align: center;
+  }
+}

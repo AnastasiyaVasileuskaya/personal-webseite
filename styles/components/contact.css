@@ -16,6 +16,9 @@
   flex-direction: column;
   align-items: center;
 }
+.link {
+  padding: 15px;
+}
 .firstbox {
   padding-bottom: 30px;
 }

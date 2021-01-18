@@ -1,0 +1,21 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "htmlhint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiyaVasileuskaya/personal-webseite.git"
+  },
+  "author": "Anastasiya Vasileuskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiyaVasileuskaya/personal-webseite/issues"
+  },
+  "homepage": "https://anastasiyavasileuskaya.github.io/personal-webseite/",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}

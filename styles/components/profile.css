@@ -13,8 +13,14 @@
   box-shadow: 5px 5px #888888;
 }
 
-@media only screen and (min-width: 700px) {
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    grid-template-rows: auto;
+  }
   .photo {
     max-width: 50%;
+    grid-column: 2/4;
   }
 }

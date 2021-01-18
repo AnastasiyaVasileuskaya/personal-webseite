@@ -5,33 +5,4 @@
 @import 'components/aboutme.css';
 @import 'components/contact.css';
 @import 'components/biography.css';
-
-/* Footer */
-.pagefooter {
-  padding: 2em;
-  background: #000;
-  color: var(--color-white);
-  text-align: center;
-}
-.pagefooter a {
-  color: #28a0bc;
-  text-decoration: none;
-}
-
-/* Media Queries */
-
-@media only screen and (min-width: 700px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-    grid-template-rows: auto;
-  }
-
-  .content-wrap {
-    grid-column: 2/4;
-  }
-
-  .pagefooter div {
-    grid-column: 2/4;
-  }
-}
+@import 'components/footer.css';

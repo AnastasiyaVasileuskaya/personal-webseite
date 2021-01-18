@@ -5,8 +5,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 112.5%;
   line-height: 1.5;
-  background: #333;
-  color: #fff;
+  background: var(--color-black);
+  color: var(--color-white);
   margin: 0;
   text-align: center;
 }

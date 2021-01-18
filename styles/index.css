@@ -1,5 +1,5 @@
 @import '_base.css';
-
+@import '_variables.css';
 .photo {
   border-radius: 50%;
   margin: 0 auto;
@@ -10,8 +10,8 @@
 }
 
 .btn {
-  background: #333;
-  color: #fff;
+  background: var(--color-black);
+  color: var(--color-white);
   text-decoration: none;
   padding: 1em 2em;
   border: 1px solid #666;
@@ -20,14 +20,14 @@
 }
 
 .btn:hover {
-  background: #eaeaea;
-  color: #333;
+  background: var(--color-beige);
+  color: var(--color-black);
 }
 
 /* Header Showcase */
 
 .pageheader {
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
 }
 .pageheader h1 {
@@ -37,8 +37,8 @@
 /* Section A */
 
 .section-a {
-  background: #eaeaea;
-  color: #333;
+  background: var(--color-beige);
+  color: var(--color-black);
   padding-bottom: 0;
 }
 
@@ -58,8 +58,8 @@
 
 .section-b li {
   margin-bottom: 1em;
-  background: #fff;
-  color: #333;
+  background: var(--color-white);
+  color: var(--color-black);
 }
 
 .card-content {
@@ -69,25 +69,25 @@
 /* Section C */
 .box {
   padding: 1em;
-  color: #fff;
+  color: var(--color-white);
 }
 .section-c {
   padding-bottom: 18px;
   padding-top: 36px;
-  background: #eaeaea;
-  color: #333;
+  background: var(--color-beige);
+  color: var(--color-black);
 }
 
 /* Section D */
 .section-d {
-  background: #fff;
-  color: #333;
+  background: var(--color-white);
+  color: var(--color-black);
   padding: 2em;
 }
 
 /* Section E */
 .section-e {
-  color: #333;
+  color: var(--color-black);
   padding: 0;
 }
 
@@ -95,7 +95,7 @@
 .pagefooter {
   padding: 2em;
   background: #000;
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
 }
 .pagefooter a {

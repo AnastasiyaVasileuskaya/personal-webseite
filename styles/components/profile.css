@@ -5,8 +5,10 @@
   padding-top: 20px;
 }
 .photo {
-  border-radius: 10%;
+  border-radius: 50%;
   margin: 0 auto;
+  width: 100%;
+  display: block;
   height: auto;
   box-shadow: 5px 5px #888888;
 }

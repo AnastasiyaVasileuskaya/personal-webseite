@@ -3,41 +3,28 @@
   text-align: center;
 }
 .pageheader h1 {
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 .btn {
   background: var(--color-black);
   color: var(--color-white);
   text-decoration: none;
-  padding: 1em 2em;
+  padding: 1em 1em;
   border: 1px solid #666;
   display: inline-block;
-  margin: 1em 0.5em;
+  margin: 2em 0.5em;
 }
 .btn:hover {
   background: var(--color-beige);
   color: var(--color-black);
 }
-@media only screen and (min-width: 700px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-    grid-template-rows: auto;
-  }
+@media (min-width: 700px) {
   .pageheader {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .navigation {
-    margin-top: 15px;
-  }
-
-  .pageheader h1 {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
-  .pageheader {
-    text-align: center;
+    margin-left: 15px;
   }
 }

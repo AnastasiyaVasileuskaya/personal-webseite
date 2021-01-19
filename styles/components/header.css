@@ -1,0 +1,30 @@
+.pageheader {
+  color: var(--color-white);
+  text-align: center;
+}
+.pageheader h1 {
+  padding-bottom: 5px;
+}
+.btn {
+  background: var(--color-black);
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 1em 1em;
+  border: 1px solid #666;
+  display: inline-block;
+  margin: 2em 0.5em;
+}
+.btn:hover {
+  background: var(--color-beige);
+  color: var(--color-black);
+}
+@media (min-width: 700px) {
+  .pageheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navigation {
+    margin-left: 15px;
+  }
+}

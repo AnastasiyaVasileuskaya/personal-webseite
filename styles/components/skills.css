@@ -1,0 +1,46 @@
+.skills {
+  padding: 2em 1em 1em;
+}
+
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skills li {
+  margin-bottom: 1em;
+  background: var(--color-white);
+  color: var(--color-black);
+}
+.card-content {
+  padding: 0;
+}
+.card {
+  box-shadow: 5px 5px #888888;
+}
+.pro {
+  padding-bottom: 36px;
+}
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    grid-template-rows: auto;
+  }
+
+  .content-wrap {
+    grid-column: 2/4;
+  }
+
+  .skills ul {
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-around;
+  }
+  .pagelist > li {
+    margin: 6px;
+  }
+  .skills li {
+    width: 20%;
+  }
+}
